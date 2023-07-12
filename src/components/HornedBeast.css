@@ -1,0 +1,22 @@
+.horned-beast {
+  border: 1px solid black;
+  width: 24%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.horned-beast img {
+  width: 100%;
+  border: 0.5rem solid transparent;
+  transition: 0.5s;
+}
+
+.horned-beast img:hover {
+  cursor: pointer;
+  border: 0.5rem solid gray;
+  border-radius: 4px;
+}
+
+.horned-beast img:active {
+  transform: scale(0.7);
+}
