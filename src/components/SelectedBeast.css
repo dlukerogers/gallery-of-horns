@@ -1,0 +1,15 @@
+img {
+  width: 100%;
+}
+
+#modalTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+}
+
+#modalDescription {
+  width: 100%;
+  padding-top: 1rem;
+  font-size: 2vw;
+}
