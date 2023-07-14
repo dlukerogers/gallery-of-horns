@@ -18,16 +18,23 @@ class HornedBeast extends React.Component {
     })
   }
 
+  handleModalShowOnClick = () => {
+    this.props.handleShowModalTitle(this.props.title);
+    this.props.handleShowModalDescription(this.props.description);
+    this.props.handleShowModalImage(this.props.image_url);
+    this.handleFavorites();
+  }
+
 
   render () {
     return (
-      <Card style={{ width: '18rem' }} className="horned-beast">
+      <Card style={{ width: '100%' }} className="horned-beast p-1 h-100">
         <Card.Img 
           variant="top" 
           src={this.props.image_url} 
-          onClick={this.handleFavorites} 
           alt={this.props.description} 
           title={this.props.title} 
+          onClick={this.handleModalShowOnClick}
         />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>

@@ -6,10 +6,3 @@ h1 {
   font-size: 5vw;
   color: rgb(220, 220, 220);
 }
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
