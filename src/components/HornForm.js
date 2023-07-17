@@ -7,7 +7,6 @@ class HornForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      howToFilter: '',
       hornsRawData: this.props.data,
     }
   }
